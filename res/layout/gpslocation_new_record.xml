@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_margin="10dp" >
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/new_record_title" />
+	    
+	    <EditText android:id="@+id/new_record_title"
+	        android:hint="@string/title_hint"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="4" />
+	    
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_margin="10dp" >
+	    
+	    <TextView android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="@string/new_record_introduction" />
+	    
+	    <EditText android:id="@+id/new_record_introduction"
+	        android:hint="@string/introduction_hint"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="4" />
+	    
+	</LinearLayout>
+    
+</LinearLayout>

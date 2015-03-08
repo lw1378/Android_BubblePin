@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android_login_googlemap.GPSOperation" >
+
+    <item
+        android:id="@+id/start_location_service"
+        android:orderInCategory="100"
+        android:title="@string/gps_startService"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/stop_location_service"
+        android:orderInCategory="100"
+        android:title="@string/gps_stopService"
+        app:showAsAction="never" />
+
+</menu>

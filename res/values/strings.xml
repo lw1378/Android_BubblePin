@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_Login_GoogleMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login process -->
+    <string name="login_username_label">UserName</string>
+    <string name="password_label">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_gpsoperation">GPSOperation</string>
+    <string name="title_activity_register_operation">RegisterOperation</string>
+
+    <!-- Register process -->
+    <string name="email_label">Email</string>
+    <string name="reset">Reset</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="username_label">Username</string>
+
+    <!-- Parse parameter -->
+    <string name="parse_applicationId">HhCn51mW3jOCHywjY0g5h5DZY2MFQRtbmuSLQWvj</string>
+    <string name="parse_clientId">MNkMAFpP8rXJfHS37oF3GIV4bohVtkdruxh0zzRQ</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_update_profile">UpdateProfile</string>
+    
+    <!-- GPS location -->
+    <string name="gps_title">Share Your Memory</string>
+    <string name="gps_record_current">Record</string>
+    <string name="gps_clear_current">Clear</string>
+    <string name="gps_record_list">History</string>
+    <string name="gps_return">Return</string>
+    <string name="gps_startService">Start Location Service</string>
+    <string name="gps_stopService">Stop Location Service</string>
+    <string name="new_record_title">Title</string>
+    <string name="new_record_introduction">Introduction</string>
+    <string name="title_hint">Input your title here ...</string>
+    <string name="introduction_hint">Input your introduction here ...</string>
+
+</resources>
